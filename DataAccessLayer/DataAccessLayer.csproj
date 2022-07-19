@@ -17,4 +17,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
