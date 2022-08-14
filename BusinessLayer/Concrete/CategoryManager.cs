@@ -14,7 +14,6 @@ namespace BusinessLayer.Concrete
     {
         ICategoryDal _categoryDal;
 
-
         public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
@@ -25,7 +24,7 @@ namespace BusinessLayer.Concrete
             _categoryDal.Insert(category);
         }
 
-        public void CategoryDelete(Category category)
+        public void CategoryDelete(Category category)  
         {
             _categoryDal.Delete(category);
         }
